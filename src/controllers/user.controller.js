@@ -2,7 +2,7 @@ import {asyncHandler} from "../utils/asyncHandler.js"
 import {ApiError} from "../utils/ApiError.js"
 import {User} from "../models/user.model.js" 
 import uplodOnCloudinary from "../utils/cloudinary.js"
-import { ApiRespons } from "../utils/ApiResponse.js";
+import  ApiRespons  from "../utils/ApiResponse.js";
 
 const registerUser = asyncHandler(async(req,res)=>{
            // get user dettails from frontend
